@@ -1,49 +1,40 @@
-# http://www.gnu.org/software/automake
+### PHPStorm ###
+.idea/
+#.idea/**/workspace.xml
+#.idea/**/tasks.xml
+#.idea/**/usage.statistics.xml
+#.idea/**/dictionaries
+#.idea/**/shelf
 
-Makefile.in
-/ar-lib
-/mdate-sh
-/py-compile
-/test-driver
-/ylwrap
+### Bitrix ###
+/bitrix/*
+!/bitrix/templates
+!/bitrix/components
+/bitrix/components/bitrix
+!/bitrix/gadgets
+/bitrix/gadgets/bitrix
+!/bitrix/php_interface/
+/bitrix/php_interface/dbconn.php
+/upload/
 
-# http://www.gnu.org/software/autoconf
+### Node ###
+node_modules/
+jspm_packages/
+bower_components/
 
-autom4te.cache
-/autoscan.log
-/autoscan-*.log
-/aclocal.m4
-/compile
-/config.guess
-/config.h.in
-/config.log
-/config.status
-/config.sub
-/configure
-/configure.scan
-/depcomp
-/install-sh
-/missing
-/stamp-h1
+### Sass ###
+.sass-cache/
+*.css.map
+*.sass.map
+*.scss.map
 
-# https://www.gnu.org/software/libtool/
+### macOS ###
+.DS_Store
 
-/ltmain.sh
+### Windows ###
+Thumbs.db
 
-# http://www.gnu.org/software/texinfo
-
-/texinfo.tex
-
-# http://www.gnu.org/software/m4/
-
-m4/libtool.m4
-m4/ltoptions.m4
-m4/ltsugar.m4
-m4/ltversion.m4
-m4/lt~obsolete.m4
-
-# Generated Makefile 
-# (meta build system like autotools, 
-# can automatically generate from config.status script
-# (which is called by configure script))
-Makefile
+### Other ###
+/cgi-bin/
+/awstats/
+/webstat/
