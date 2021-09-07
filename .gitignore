@@ -8,13 +8,15 @@
 
 ### Bitrix ###
 /bitrix/*
+!/bitrix/license_key.php
 !/bitrix/templates
 !/bitrix/components
 /bitrix/components/bitrix
 !/bitrix/gadgets
 /bitrix/gadgets/bitrix
 !/bitrix/php_interface/
-/bitrix/php_interface/dbconn.php
+#/bitrix/php_interface/dbconn.php
+!/bitrix/.settings.php
 /upload/
 
 ### Node ###
